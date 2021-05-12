@@ -7,6 +7,6 @@ let articleSchema = new Schema({
   author: Number,
 });
 
-let Article = mongoose.model('Author', articleSchema);
+let Article = mongoose.model('Article', articleSchema);
 
 module.exports = Article;
